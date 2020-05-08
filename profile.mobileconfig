@@ -5,16 +5,91 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Update Configuration</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/profile.mobileconfig</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.DEF9668B-8CC5-4205-A012-91BDA237897C</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>DEF9668B-8CC5-4205-A012-91BDA237897C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+			<key>ProxyPACURL</key>
+			<string>https://gist.githubusercontent.com/samheather/e9b2777da880a74624c29907ce65bc3b/raw/6a2b968c5bdd7011121e7f7b5e97ae54cfc62209/pac.js</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.CBC82C78-86F8-423E-888E-B215ECFF8BF7</string>
+			<string>com.apple.applicationaccess.1DEB742E-3CAC-4F19-9F9D-628D651A00E7</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>CBC82C78-86F8-423E-888E-B215ECFF8BF7</string>
+			<string>1DEB742E-3CAC-4F19-9F9D-628D651A00E7</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -146,7 +221,7 @@
 			<key>allowRemoteScreenObservation</key>
 			<true/>
 			<key>allowSafari</key>
-			<false/>
+			<true/>
 			<key>allowScreenShot</key>
 			<false/>
 			<key>allowSharedStream</key>
@@ -216,11 +291,11 @@
 			<key>safariAcceptCookies</key>
 			<integer>2</integer>
 			<key>safariAllowAutoFill</key>
-			<true/>
+			<false/>
 			<key>safariAllowJavaScript</key>
 			<true/>
 			<key>safariAllowPopups</key>
-			<true/>
+			<false/>
 			<key>safariForceFraudWarning</key>
 			<false/>
 			<key>whitelistedAppBundleIDs</key>
@@ -232,58 +307,26 @@
 				<string>com.apple.facetime</string>
 				<string>com.apple.facetime</string>
 				<string>com.apple.MobileAddressBook</string>
+				<string>com.apple.mobilesafari</string>
+				<string>webclip</string>
+				<string>com.apple.webapp</string>
 			</array>
 		</dict>
 		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-				</dict>
-			</array>
+			<key>IfLostReturnToMessage</key>
+			<string>Philip Croney's iPad</string>
 			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
+			<string>Configures ownership information for a shared device</string>
 			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
+			<string>Lock Screen Message</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<string>com.apple.shareddeviceconfiguration.29819492-B065-4D97-859C-228F019ECAF9</string>
 			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
+			<string>com.apple.shareddeviceconfiguration</string>
 			<key>PayloadUUID</key>
-			<string>9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<string>29819492-B065-4D97-859C-228F019ECAF9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadDisplayName</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.DEF9668B-8CC5-4205-A012-91BDA237897C</string>
-			<key>PayloadType</key>
-			<string>com.apple.proxy.http.global</string>
-			<key>PayloadUUID</key>
-			<string>DEF9668B-8CC5-4205-A012-91BDA237897C</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyCaptiveLoginAllowed</key>
-			<true/>
-			<key>ProxyPACFallbackAllowed</key>
-			<false/>
-			<key>ProxyPACURL</key>
-			<string>https://gist.githubusercontent.com/samheather/e9b2777da880a74624c29907ce65bc3b/raw/6a2b968c5bdd7011121e7f7b5e97ae54cfc62209/pac.js</string>
-			<key>ProxyType</key>
-			<string>Auto</string>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
@@ -295,7 +338,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>03371C92-0974-46A1-A879-4F035ECEB962</string>
+	<string>5378E92D-F782-4D0A-BF5C-478570F9A6E9</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
