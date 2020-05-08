@@ -5,91 +5,16 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
-			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
-			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
-			<key>PayloadUUID</key>
-			<string>9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>FullScreen</key>
-			<true/>
-			<key>IsRemovable</key>
-			<false/>
-			<key>Label</key>
-			<string>Update Configuration</string>
-			<key>PayloadDescription</key>
-			<string>Configures settings for a web clip</string>
-			<key>PayloadDisplayName</key>
-			<string>Web Clip</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
-			<key>PayloadType</key>
-			<string>com.apple.webClip.managed</string>
-			<key>PayloadUUID</key>
-			<string>1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Precomposed</key>
-			<true/>
-			<key>URL</key>
-			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/profile.mobileconfig</string>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadDisplayName</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.DEF9668B-8CC5-4205-A012-91BDA237897C</string>
-			<key>PayloadType</key>
-			<string>com.apple.proxy.http.global</string>
-			<key>PayloadUUID</key>
-			<string>DEF9668B-8CC5-4205-A012-91BDA237897C</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyCaptiveLoginAllowed</key>
-			<true/>
-			<key>ProxyPACFallbackAllowed</key>
-			<false/>
-			<key>ProxyPACURL</key>
-			<string>https://gist.githubusercontent.com/samheather/e9b2777da880a74624c29907ce65bc3b/raw/6a2b968c5bdd7011121e7f7b5e97ae54cfc62209/pac.js</string>
-			<key>ProxyType</key>
-			<string>Auto</string>
-		</dict>
-		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.1DEB742E-3CAC-4F19-9F9D-628D651A00E7</string>
+			<string>com.apple.applicationaccess.05B5981D-3F66-4393-A5D2-3C10C645FFBC</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>1DEB742E-3CAC-4F19-9F9D-628D651A00E7</string>
+			<string>05B5981D-3F66-4393-A5D2-3C10C645FFBC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -99,7 +24,7 @@
 			<key>allowAddingGameCenterFriends</key>
 			<true/>
 			<key>allowAirDrop</key>
-			<false/>
+			<true/>
 			<key>allowAirPlayIncomingRequests</key>
 			<false/>
 			<key>allowAirPrint</key>
@@ -307,10 +232,156 @@
 				<string>com.apple.facetime</string>
 				<string>com.apple.facetime</string>
 				<string>com.apple.MobileAddressBook</string>
-				<string>com.apple.mobilesafari</string>
 				<string>webclip</string>
 				<string>com.apple.webapp</string>
 			</array>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<false/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Michael</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.3B8C9EC6-A82D-439D-B227-65C6F1BF20D3</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>3B8C9EC6-A82D-439D-B227-65C6F1BF20D3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>facetime://+447785724015</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.DEF9668B-8CC5-4205-A012-91BDA237897C</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>DEF9668B-8CC5-4205-A012-91BDA237897C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+			<key>ProxyPACURL</key>
+			<string>https://gist.githubusercontent.com/samheather/e9b2777da880a74624c29907ce65bc3b/raw/6a2b968c5bdd7011121e7f7b5e97ae54cfc62209/pac.js</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<false/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Joseph</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.D29298A9-73DC-4548-A767-147857ACCB09</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>D29298A9-73DC-4548-A767-147857ACCB09</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>facetime://+447379038410</string>
+		</dict>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>9238A1E4-96EA-43DC-B8D1-513CEDAE2875</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Update Configuration</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>1C1C98D5-DB1C-4BCD-9FE3-F03965587B01</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/profile.mobileconfig</string>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<false/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Charlotte</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.1186C3FB-A319-4832-B58B-F7A94C0CEA34</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>1186C3FB-A319-4832-B58B-F7A94C0CEA34</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>facetime://+447990958316</string>
 		</dict>
 		<dict>
 			<key>IfLostReturnToMessage</key>
@@ -328,6 +399,54 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<false/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Gillian</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.2665A9BC-C88F-49C9-ACF6-FF1361D23B36</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>2665A9BC-C88F-49C9-ACF6-FF1361D23B36</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>facetime://+447940717949</string>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<false/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Deborah</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.CCB76086-50A9-4214-BA92-057D1B036FE4</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>CCB76086-50A9-4214-BA92-057D1B036FE4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>facetime://+447775069628</string>
+		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Phil iPad</string>
@@ -338,7 +457,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5378E92D-F782-4D0A-BF5C-478570F9A6E9</string>
+	<string>CB4536D5-E43D-465E-9E38-F0D52D6CA3B7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
