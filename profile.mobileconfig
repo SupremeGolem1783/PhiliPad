@@ -27,16 +27,101 @@
 			<string>Auto</string>
 		</dict>
 		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Preferences</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileAddressBook</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Update Config</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.BB7BC7F4-26D5-4F93-84E8-2E8F0FAEAC00</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>BB7BC7F4-26D5-4F93-84E8-2E8F0FAEAC00</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/phil-profile.mobileconfig</string>
+		</dict>
+		<dict>
+			<key>IfLostReturnToMessage</key>
+			<string>Philip Croney's iPad</string>
+			<key>PayloadDescription</key>
+			<string>Configures ownership information for a shared device</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Message</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.shareddeviceconfiguration.29819492-B065-4D97-859C-228F019ECAF9</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			<key>PayloadUUID</key>
+			<string>29819492-B065-4D97-859C-228F019ECAF9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.5AD5D72D-28A9-4095-8F64-D48621972863</string>
+			<string>com.apple.applicationaccess.550953E1-83BF-444A-8575-53DB6B29B825</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>5AD5D72D-28A9-4095-8F64-D48621972863</string>
+			<string>550953E1-83BF-444A-8575-53DB6B29B825</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -170,7 +255,7 @@
 			<key>allowSafari</key>
 			<false/>
 			<key>allowScreenShot</key>
-			<true/>
+			<false/>
 			<key>allowSharedStream</key>
 			<true/>
 			<key>allowSpellCheck</key>
@@ -258,91 +343,6 @@
 				<string>com.apple.webapp</string>
 			</array>
 		</dict>
-		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Preferences</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileAddressBook</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
-			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
-			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
-			<key>PayloadUUID</key>
-			<string>AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>FullScreen</key>
-			<true/>
-			<key>IsRemovable</key>
-			<false/>
-			<key>Label</key>
-			<string>Update Config</string>
-			<key>PayloadDescription</key>
-			<string>Configures settings for a web clip</string>
-			<key>PayloadDisplayName</key>
-			<string>Web Clip</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.6E4EE96C-F960-4251-AE4A-98F2F4B1F9BC</string>
-			<key>PayloadType</key>
-			<string>com.apple.webClip.managed</string>
-			<key>PayloadUUID</key>
-			<string>6E4EE96C-F960-4251-AE4A-98F2F4B1F9BC</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Precomposed</key>
-			<true/>
-			<key>URL</key>
-			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/profile.mobileconfig</string>
-		</dict>
-		<dict>
-			<key>IfLostReturnToMessage</key>
-			<string>Philip Croney's iPad</string>
-			<key>PayloadDescription</key>
-			<string>Configures ownership information for a shared device</string>
-			<key>PayloadDisplayName</key>
-			<string>Lock Screen Message</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.shareddeviceconfiguration.29819492-B065-4D97-859C-228F019ECAF9</string>
-			<key>PayloadType</key>
-			<string>com.apple.shareddeviceconfiguration</string>
-			<key>PayloadUUID</key>
-			<string>29819492-B065-4D97-859C-228F019ECAF9</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Phil iPad</string>
@@ -353,7 +353,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D0CFD9D2-A1AE-496B-A514-38ED9FF64006</string>
+	<string>EE66A143-98A8-44B8-943A-801505FC8EDA</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
