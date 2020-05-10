@@ -96,32 +96,16 @@
 			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/phil-profile.mobileconfig</string>
 		</dict>
 		<dict>
-			<key>IfLostReturnToMessage</key>
-			<string>Philip Croney's iPad</string>
-			<key>PayloadDescription</key>
-			<string>Configures ownership information for a shared device</string>
-			<key>PayloadDisplayName</key>
-			<string>Lock Screen Message</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.shareddeviceconfiguration.29819492-B065-4D97-859C-228F019ECAF9</string>
-			<key>PayloadType</key>
-			<string>com.apple.shareddeviceconfiguration</string>
-			<key>PayloadUUID</key>
-			<string>29819492-B065-4D97-859C-228F019ECAF9</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.550953E1-83BF-444A-8575-53DB6B29B825</string>
+			<string>com.apple.applicationaccess.8D4282A4-EECE-4364-8F7F-6A6151264EED</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>550953E1-83BF-444A-8575-53DB6B29B825</string>
+			<string>8D4282A4-EECE-4364-8F7F-6A6151264EED</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -343,6 +327,22 @@
 				<string>com.apple.webapp</string>
 			</array>
 		</dict>
+		<dict>
+			<key>IfLostReturnToMessage</key>
+			<string>Philip Croney's iPad</string>
+			<key>PayloadDescription</key>
+			<string>Configures ownership information for a shared device</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Message</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.shareddeviceconfiguration.29819492-B065-4D97-859C-228F019ECAF9</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			<key>PayloadUUID</key>
+			<string>29819492-B065-4D97-859C-228F019ECAF9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Phil iPad</string>
@@ -353,7 +353,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>EE66A143-98A8-44B8-943A-801505FC8EDA</string>
+	<string>26E2155B-E1FF-4270-96A0-49391A31B748</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
