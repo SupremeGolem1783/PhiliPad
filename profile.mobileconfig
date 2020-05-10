@@ -27,61 +27,16 @@
 			<string>Auto</string>
 		</dict>
 		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Preferences</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileAddressBook</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
-			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
-			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
-			<key>PayloadUUID</key>
-			<string>AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.C2E69CF4-555C-40F5-AB13-0ECA74C9A39B</string>
+			<string>com.apple.applicationaccess.5AD5D72D-28A9-4095-8F64-D48621972863</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>C2E69CF4-555C-40F5-AB13-0ECA74C9A39B</string>
+			<string>5AD5D72D-28A9-4095-8F64-D48621972863</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -215,7 +170,7 @@
 			<key>allowSafari</key>
 			<false/>
 			<key>allowScreenShot</key>
-			<false/>
+			<true/>
 			<key>allowSharedStream</key>
 			<true/>
 			<key>allowSpellCheck</key>
@@ -304,6 +259,51 @@
 			</array>
 		</dict>
 		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Preferences</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileAddressBook</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>FullScreen</key>
 			<true/>
 			<key>IsRemovable</key>
@@ -353,7 +353,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>B5B94E47-21AF-4656-BD69-6353941D8739</string>
+	<string>D0CFD9D2-A1AE-496B-A514-38ED9FF64006</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
