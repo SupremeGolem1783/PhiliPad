@@ -5,28 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadDisplayName</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.D70EDE02-FFFF-45F8-A999-C55448000CCA</string>
-			<key>PayloadType</key>
-			<string>com.apple.proxy.http.global</string>
-			<key>PayloadUUID</key>
-			<string>D70EDE02-FFFF-45F8-A999-C55448000CCA</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyCaptiveLoginAllowed</key>
-			<true/>
-			<key>ProxyPACFallbackAllowed</key>
-			<false/>
-			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/pac.js</string>
-			<key>ProxyType</key>
-			<string>Auto</string>
-		</dict>
-		<dict>
 			<key>NotificationSettings</key>
 			<array>
 				<dict>
@@ -38,8 +16,14 @@
 					<false/>
 				</dict>
 				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<false/>
 					<key>BundleIdentifier</key>
 					<string>com.apple.facetime</string>
+					<key>ShowInNotificationCenter</key>
+					<false/>
 				</dict>
 				<dict>
 					<key>AlertType</key>
@@ -63,13 +47,35 @@
 			<key>PayloadDisplayName</key>
 			<string>Notifications</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<string>com.apple.notificationsettings.ECE2179D-01A1-4C9D-AD01-AC4FB8CE32DF</string>
 			<key>PayloadType</key>
 			<string>com.apple.notificationsettings</string>
 			<key>PayloadUUID</key>
-			<string>AFC19E62-B76C-4A06-A569-62CCCF32E362</string>
+			<string>ECE2179D-01A1-4C9D-AD01-AC4FB8CE32DF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.D8B5E61C-1960-40E5-B36A-64DB17D9D21A</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>D8B5E61C-1960-40E5-B36A-64DB17D9D21A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+			<key>ProxyPACFallbackAllowed</key>
+			<true/>
+			<key>ProxyPACURL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/pac.js</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
 		</dict>
 		<dict>
 			<key>FullScreen</key>
@@ -101,11 +107,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.8D4282A4-EECE-4364-8F7F-6A6151264EED</string>
+			<string>com.apple.applicationaccess.1B526080-4344-4E8B-A843-3D366E258FFC</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>8D4282A4-EECE-4364-8F7F-6A6151264EED</string>
+			<string>1B526080-4344-4E8B-A843-3D366E258FFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -353,7 +359,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>26E2155B-E1FF-4270-96A0-49391A31B748</string>
+	<string>B3414EE4-ACC8-4475-8E9F-3416458AF2AC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
