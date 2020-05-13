@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Update Config</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.0CB4BEBF-2331-4A67-961B-C44AD5DD6194</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>0CB4BEBF-2331-4A67-961B-C44AD5DD6194</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/phil-main-restrictions.mobileconfig</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile adds the link on the home screen for enabling or updating the main restrictions applied to this iPad. DO NOT REMOVE.</string>
+	<key>PayloadDisplayName</key>
+	<string>Phil iPad - Restrictions Link - DO NOT REMOVE</string>
+	<key>PayloadIdentifier</key>
+	<string>Samuel-B-Heathers-MacBook-Pro.F934030C-4C12-4B2F-B86E-BEA5ED60D1F8</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>803B2162-D0B4-4F98-B0F7-2AFAEABE5374</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
