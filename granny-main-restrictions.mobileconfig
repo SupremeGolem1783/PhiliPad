@@ -7,6 +7,36 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>Any</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>bLGnt6pynXJX</string>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.72E52798-EE0C-4DA3-B062-619145D3C64F</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>72E52798-EE0C-4DA3-B062-619145D3C64F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>BTHub6-MTWR</string>
+		</dict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
@@ -139,11 +169,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.6C75B4AA-C013-41C3-9A58-AA5B0B28A61E</string>
+			<string>com.apple.applicationaccess.CC801EF0-F283-4053-B902-FD9B8E38551B</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>6C75B4AA-C013-41C3-9A58-AA5B0B28A61E</string>
+			<string>CC801EF0-F283-4053-B902-FD9B8E38551B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -374,7 +404,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>0AF46D67-DE63-4F44-B01A-DF26C7002CD3</string>
+	<string>A3C37D86-266D-4845-A65C-729776F97F2D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
