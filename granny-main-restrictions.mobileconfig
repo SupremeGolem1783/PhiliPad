@@ -29,20 +29,107 @@
 			<string>Auto</string>
 		</dict>
 		<dict>
-			<key>AssetTagInformation</key>
-			<string>Philip Croney's iPad - Asset Tag</string>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>Any</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>f5ea664cdc</string>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.87B55567-4D08-4810-BC11-92D23ED6D557</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>87B55567-4D08-4810-BC11-92D23ED6D557</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>BTHomeHub-NG33</string>
+		</dict>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<false/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+					<key>ShowInNotificationCenter</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Preferences</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileAddressBook</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileSMS</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>IfLostReturnToMessage</key>
-			<string>Philip Croney's iPad</string>
+			<string>Elizabeth Heather's iPad</string>
 			<key>PayloadDescription</key>
 			<string>Configures ownership information for a shared device</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Message</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.shareddeviceconfiguration.974C2C74-5FF2-428E-97EF-8E3E390AEF32</string>
+			<string>com.apple.shareddeviceconfiguration.4122EB36-DED8-4E20-A58D-67DBDDF5BFF8</string>
 			<key>PayloadType</key>
 			<string>com.apple.shareddeviceconfiguration</string>
 			<key>PayloadUUID</key>
-			<string>974C2C74-5FF2-428E-97EF-8E3E390AEF32</string>
+			<string>4122EB36-DED8-4E20-A58D-67DBDDF5BFF8</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -52,11 +139,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.E76C22ED-2155-495E-A2A6-39F7E057AB0A</string>
+			<string>com.apple.applicationaccess.6C75B4AA-C013-41C3-9A58-AA5B0B28A61E</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>E76C22ED-2155-495E-A2A6-39F7E057AB0A</string>
+			<string>6C75B4AA-C013-41C3-9A58-AA5B0B28A61E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -275,68 +362,9 @@
 				<string>com.apple.webapp</string>
 			</array>
 		</dict>
-		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<false/>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-					<key>ShowInNotificationCenter</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Preferences</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileAddressBook</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileSMS</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
-			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
-			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
-			<key>PayloadUUID</key>
-			<string>F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profile applies the restrictions that make this iPad work for Granny, including hiding apps he won't use, disabling automatic software updates and disabling animations (among other things).</string>
+	<string>This profile applies the restrictions that make this iPad work for Granny, including hiding apps she won't use, disabling automatic software updates and disabling animations (among other things).</string>
 	<key>PayloadDisplayName</key>
 	<string>Granny iPad - Restrictions</string>
 	<key>PayloadIdentifier</key>
@@ -346,7 +374,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>67563CA3-03B7-4DD7-954E-1DC63D385A21</string>
+	<string>0AF46D67-DE63-4F44-B01A-DF26C7002CD3</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
