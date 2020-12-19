@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AssetTagInformation</key>
+			<string>Philip Croney's iPad - Asset Tag</string>
+			<key>IfLostReturnToMessage</key>
+			<string>Philip Croney's iPad</string>
+			<key>PayloadDescription</key>
+			<string>Configures ownership information for a shared device</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Message</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.shareddeviceconfiguration.20646A7D-43E4-42BD-B24A-35460E400A3C</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			<key>PayloadUUID</key>
+			<string>20646A7D-43E4-42BD-B24A-35460E400A3C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile DISABLES the restrictions that make this iPad work for Phil, including hiding apps he won't use, disabling automatic software updates and disabling animations (among other things).</string>
+	<key>PayloadDisplayName</key>
+	<string>Phil iPad - Restrictions (DISABLED)</string>
+	<key>PayloadIdentifier</key>
+	<string>Samuel-B-Heathers-MacBook-Pro.FB1907E0-BFDB-4F69-8E8E-6C631D242F41</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1C59ED84-6C2E-4586-8B1A-6E692FC763FC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

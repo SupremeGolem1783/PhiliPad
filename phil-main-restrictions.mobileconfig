@@ -5,28 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadDisplayName</key>
-			<string>Global HTTP Proxy</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.D8B5E61C-1960-40E5-B36A-64DB17D9D21A</string>
-			<key>PayloadType</key>
-			<string>com.apple.proxy.http.global</string>
-			<key>PayloadUUID</key>
-			<string>D8B5E61C-1960-40E5-B36A-64DB17D9D21A</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyCaptiveLoginAllowed</key>
-			<true/>
-			<key>ProxyPACFallbackAllowed</key>
-			<true/>
-			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/pac.js</string>
-			<key>ProxyType</key>
-			<string>Auto</string>
-		</dict>
-		<dict>
 			<key>AssetTagInformation</key>
 			<string>Philip Croney's iPad - Asset Tag</string>
 			<key>IfLostReturnToMessage</key>
@@ -45,16 +23,75 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<false/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.facetime</string>
+					<key>ShowInNotificationCenter</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Preferences</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileAddressBook</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileSMS</string>
+					<key>NotificationsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.9E60F02E-6D72-4A2C-8061-B05A660528E5</string>
+			<string>com.apple.applicationaccess.666F5D25-E09F-41F6-8E45-51D0148C7A3A</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>9E60F02E-6D72-4A2C-8061-B05A660528E5</string>
+			<string>666F5D25-E09F-41F6-8E45-51D0148C7A3A</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -276,65 +313,6 @@
 				<string>com.apple.webapp</string>
 			</array>
 		</dict>
-		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.mobileslideshow</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<false/>
-					<key>BundleIdentifier</key>
-					<string>com.apple.facetime</string>
-					<key>ShowInNotificationCenter</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Preferences</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileAddressBook</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>0</integer>
-					<key>BundleIdentifier</key>
-					<string>com.apple.MobileSMS</string>
-					<key>NotificationsEnabled</key>
-					<false/>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Configures notifications settings for apps</string>
-			<key>PayloadDisplayName</key>
-			<string>Notifications</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.notificationsettings.F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
-			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
-			<key>PayloadUUID</key>
-			<string>F6217D39-9C4B-4590-82C1-ADF8EC27A76F</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>This profile applies the restrictions that make this iPad work for Phil, including hiding apps he won't use, disabling automatic software updates and disabling animations (among other things).</string>
@@ -347,7 +325,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>69D55705-5CC2-47F7-9A33-639F685B1B1C</string>
+	<string>05D45B9E-D735-4F9E-A1D6-BB0DEDF15734</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

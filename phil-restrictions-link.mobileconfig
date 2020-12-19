@@ -10,6 +10,30 @@
 			<key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
+			<string>Update Block</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.CA2C8453-9DF8-45DA-B859-2D8B53315D3D</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>CA2C8453-9DF8-45DA-B859-2D8B53315D3D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/disable-apple-update.mobileconfig</string>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
 			<string>Update Config</string>
 			<key>PayloadDescription</key>
 			<string>Configures settings for a web clip</string>
@@ -28,9 +52,33 @@
 			<key>URL</key>
 			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/phil-main-restrictions.mobileconfig</string>
 		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Disable Config</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.9899E9BB-94A4-4FCB-BD93-45B756A0C522</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>9899E9BB-94A4-4FCB-BD93-45B756A0C522</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://raw.githubusercontent.com/samheather/PhiliPad/master/phil-main-restrictions-disabled.mobileconfig</string>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profile adds the link on the home screen for enabling or updating the main restrictions applied to this iPad. DO NOT REMOVE.</string>
+	<string>This profile adds the links on the home screen for enabling or updating the main restrictions applied to this iPad. DO NOT REMOVE.</string>
 	<key>PayloadDisplayName</key>
 	<string>Phil iPad - Restrictions Link - DO NOT REMOVE</string>
 	<key>PayloadIdentifier</key>
@@ -40,7 +88,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>803B2162-D0B4-4F98-B0F7-2AFAEABE5374</string>
+	<string>D768E0EB-1BB1-43F1-BA69-EA85CA041065</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
